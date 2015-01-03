@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="../PPstylesheets/biggame.css" rel="stylesheet" type="text/css">
+<script src="../Javascript/biggame.js"></script>
+</head>
+
+<body>
+<div id="biggamebody" >
+      <div id="pickgamecontainer">
+    
+            <p class="gametitle"    >gametitle</p>
+            <p class="gamedatentime">gameday gamedate suffix</p>
+            <p class="gameAMPM">gametime</p>
+            <p class="gamechannel">gamechannel</p>
+            
+            <div id="helmetswrapper">
+                    <label><input type="radio" name="gameid" value="packers" style="display:none" id="game1A" onChange="putborder('packerspic','seahawkspic')"  />
+                         <img src="/images/helmetsL/packers.png" class="helmets" id="packerspic"/>
+                    </label>
+                    <span id="versus">VS</span>
+                    <label><input type="radio" name="gameid" value="seahawks" style="display:none" id="game1B" onChange="putborder('seahawkspic','packerspic')"  />
+                         <img src="/images/helmetsR/seahawks.png" class="helmets" id="seahawkspic"/>
+                    </label>
+            </div><!--helmetwrapper-->
+            <div id="awayteam">packers</div>
+            <div id="hometeam">seahawks</div> 
+    
+      </div><!--pickgamecontainer-->
+</div><!--biggamebody-->
+</body>
+<script>alert(document.documentElement);</script>
+</html>

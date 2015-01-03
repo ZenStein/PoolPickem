@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <navbar>NavBar/notLoggedNav.php</navbar>
+  <mainMenu>dummy.php</mainMenu>
+  <contents>Content/notLoggedMain.php</contents>
+  <widgets>Widgets/notLoggedWidgets.php</widgets>
+</root>

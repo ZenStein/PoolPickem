@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <navbar>dummy.php</navbar>
+  <mainMenu>dummy.php</mainMenu>
+  <contents>Content/enterValidationCode.php</contents>
+  <widgets>dummy.php</widgets>
+</root>

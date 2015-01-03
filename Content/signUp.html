@@ -1,0 +1,12 @@
+<h3>SignUp</h3>
+
+<script src="Javascript/logInValidation.js"></script>
+
+<form id="signupform" onSubmit="return SignUpIsValid()" action="../PHPs/signUp.php" method = "POST" >
+    <input type="text" name="SUfirstname" id="SUfirstname" placeholder="First name"><span id="FnameERR"></span><br>
+    <input type="text" name="SUlastname" id="SUlastname" placeholder="Last Name"><span id="LnameERR"></span><br>
+    <input type="email" name="SUemail" id="SUemail" onBlur="loadXMLDoc(this.value)" placeholder="Email"><span id="emailERR"></span><br> 
+    <input type="password" name="SUpassword" id="SUpassword" placeholder="Password"><span id="passwordERR"></span><br>
+    <input type="password" name="SUconfirmpassword" id="SUconfirmpassword" placeholder="Comfirm Password"><span id="CpasswordERR"></span><br>
+    <input type="submit" value="Sign Up"><br>
+</form>

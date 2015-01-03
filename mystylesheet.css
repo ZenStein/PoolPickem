@@ -1,0 +1,297 @@
+@charset "UTF-8";
+#background {
+    position: abolute;
+    height: 800px;
+    width: 1400px;
+    left: 0px;
+    top: 0px;
+    background-image: url(/images/stadiumbackround.png);
+}
+#header {
+    background-color: #FFFFFF;
+    position: relative;
+    height: 100px;
+    width: 1000px;
+    left: 10%;
+    top: 25px;
+    border-radius: 20px;
+    border: thick double #000000;
+    -webkit-box-shadow: inset 3px 3px 10px rgba(69,60,60,1.00);
+    box-shadow: inset 3px 3px 10px rgba(69,60,60,1.00);
+}
+#textinsideheader{
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: auto;
+    font-style: italic;
+    font-family: Franklin Gothic Bold;
+    text-shadow: 3px 5px 15px #2B302B;
+    font-size: 75px;
+    text-align: center;
+    color: rgba(21,63,229,1.00);
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+#navbarcontainer{
+	position: relative;
+	width: 1000px;
+	height: 50px;
+	background-color: #222;
+    top:30px;
+	left: 10%;
+	border-radius: 20px;
+    overflow:hidden;
+    margin-top:25px;
+}
+.navbarWrap{
+position:absolute;
+height:auto;
+width:auto;
+top:0px;
+margin-top:15px;
+margin-left:20px;
+}
+.navbarWrap ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbarWrap li{
+    display: inline;
+    margin-left: 45px;
+}
+.navbarWrap a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 20px;
+    text-align: center;
+    color:#23B9E4;
+}
+.navbarWrap a:hover{
+color:#FFFCFD;
+}
+#welcometextwrapper{
+    position: absolute;
+    height: auto;
+    width: auto;
+    right: 0px;
+    margin-right: 35px;
+    text-align: right;
+    color: #23B9E4;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: oblique;
+top:16px;
+}
+#midwrap{
+    position: relative;
+    height: 400px;
+    width: 1000px;
+    left: 10%;
+`
+min-width:1000px;
+    top: 50px;
+}
+#menu {
+    position: relative;
+    width: 13%;
+    height: 330px;
+    background-color: #062003;
+    border-right-width: medium;
+    text-align: center;
+    border-radius: 20px;
+    border-style: double;
+    text-shadow: px 0px;
+    text-decoration: none;
+    display: inline;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-color: #000000;
+    border: 10px inset #000000;
+    overflow-y: scroll;
+    margin-left: 5px;
+}
+#weeklyul{
+	list-style-type: none;
+	text-align: center;
+	left: -25px;
+	margin-left: -40px;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 30px;
+}
+#modal{
+    position: absolute;
+    height: 800px;
+    width: 1400px;
+    top: -500px;  
+    float: left;
+    z-index: -99;
+    display: none;
+    color: rgba(243,239,239,1.00);
+    background-color: rgba(14,14,14,0.53)
+}
+@-webkit-keyframes mymove {
+    from {top: -500px;}
+    to   {top: -8px;}
+}
+#insidemodal{
+position:absolute;
+width:500px;
+height:500px;
+background-color:#000000;
+margin-left:20%;
+margin-top:7%;
+overflow:scroll;
+}
+#biggamemodal{
+    height: 800px;
+    width: 1400px;
+    position:absolute;
+    z-index:25;
+    background-color:rgba(76,76,76,0.78);
+    display:none;
+    }
+@-webkit-keyframes prompt {
+    from {height: 0px; width:0px; top:50%; left:50%;}
+    to   {height: 800px; width:1400px; top:0%; left:0%;}
+}
+#BGprompt{
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    background-color: #0A3C0D;
+    display: none;
+    text-align: center;
+    color: rgba(81,240,55,1.00);
+    }
+#content{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    background-color: #082205;
+    text-align: center;
+    border-radius: 20px;
+    border: 10px inset #000000;
+    overflow-y: scroll;
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#leaderboard{
+	left: 70px;
+	position: absolute;
+	float: left;
+	text-align: center;
+    top:70px;
+	
+}
+#rankcolumn{
+	width: 20px;
+}
+#widgets{
+    position: relative;
+    width: 150px;
+    height: 350px;
+    background-color: #000000;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    overflow: hidden;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+#widgetscontainer{
+    width: 100%;
+    height: 100%;
+    min-width:inherit;
+    background-color: #062103;
+    border-radius: 20px;
+   
+}
+#widgetswrapper{
+    width: 100%;
+    height: 80%;
+    padding-top: 20%;
+}
+.personalinwidget{
+    width: 100%;
+    height: 15%;
+    margin-top: 10px;
+}
+.playerboard{
+    width: 90%;
+    height: 50%;
+    -webkit-box-shadow: inset 1px 4px 12px 1px #11E903;
+    box-shadow: inset 1px 4px 12px 1px #11E903;
+    border-top: thin solid #000000;
+    position: relative;
+    left: 5px;
+    text-align: center;
+    color: #007AE6;
+    font-weight: normal;
+    font-size: 17px;
+    text-shadow: 1px 1px #7F8CF8;
+    padding-top: 1px;
+    border-radius: 10px;
+}
+.boardlabel{
+    width: 100%;
+    height: 40%;
+    color: #FDF9F9;
+    text-align: center;
+    font-size: large;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+
+
+
+
+span{
+	color:#FF050A;	
+}
+#userlogin{
+	text-decoration: none;
+	list-style-type: none;
+}
+.UIdeadline{
+    color: #00A711;
+}
+
+#logoutul{
+	text-align: right;
+	position: relative;
+}
+
+
+#signupbutton{
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+}
+#signupform{
+	text-align: left;
+	padding-left: 36%;
+}
+

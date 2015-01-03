@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* CSS Document */
+#WEEKSnavcenter{
+    height: 50px;
+    width: 300px;
+    display: inline;
+    float: left;
+    background-color: #E0DBDB;
+    color: #3D73C8;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+}
+#WEEKSnavcontainer{
+    position:relative;
+    width: 100%;
+    height: 90px;
+}
+#biggamebody{/* <!--changetolaunch--> <!--this is 'content' div on server--> */
+    width: 580px;
+    height: 350px;
+    position: relative;
+    float: left;
+    background-color: #062203;
+    }
+#WEEKSnavwrap{
+    position: absolute;
+    height: auto;
+    width: auto;
+    background-color: #23A90F;
+    left: 15%;
+    top: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+#WEEKSnavleft{
+    height: 35px;
+    width: 35px;
+    display: inline;
+    float: left;
+    margin-top: 7px;
+    margin-right:8px;
+    text-align: right;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    overflow:hidden;
+}
+
+#WEEKSnavright{
+    height: 35px;
+    width: 35px;
+    display: inline;
+    float: left;
+    margin-top: 7px;
+    margin-left:8px;
+    text-align: left;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    overflow:hidden;
+}
+.gametitlecontainer{
+    background-color: #8C8200;
+    width: 100%;
+    height:50px;
+    position: relative;
+    }
+
+
+.gametitle{
+    position: relative;
+    width: 420px;
+    float: left;
+    margin-left: 60px;
+    top: -9px;
+    font-weight: bold;
+    font-style: normal;
+    color: #FDF9F9;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-decoration: none;
+    font-size: 24px;
+    text-shadow: 0px 5px 25px #DEDEDE;
+    background-color: #23A90F;
+    border-top: thick solid #9C0002;
+    border-right: thick solid #9C0002;
+    border-left: thick solid #9C0002;
+    margin-bottom: 0px;
+    margin-top:31px;
+    
+}
+.pickgamecontainer{
+    width: 540px;
+    height: 275px;
+    position:relative;
+    float:left;
+    background-color: #E8E58D;
+    text-align:center;
+    margin-left:20px;
+    border-bottom: 20px solid #9C0002;
+    }
+.versus{
+    position: relative;
+    width: 100px;
+    height: 93px;
+    display: inline;
+    float: left;
+    color: #FFE200;
+    font-size: 70px;
+    top: 0px;
+    background-color: #FDF9F9;
+}
+
+.helmetswrapper{
+    width: 525px;
+    height: 96px;
+    background-color: #712D2E;
+    text-align: center;
+    position: relative;
+    margin-left: 7px;
+        }
+.awayteamscore{
+     position:relative;
+     width:70px;
+     height:54px;
+     float:left;
+     background-color:#8000D1;
+     display:inline;
+     padding-top:40px;
+     font-size:40px;   
+     }
+.hometeamscore{
+     position:relative;
+     width:70px;
+     height:54px;
+     background-color:#AC82E5;
+     display:inline;
+     float:left;
+     padding-top:40px;
+     font-size:40px;    
+     }
+.hometeam{
+    display: inline;
+    position: relative;
+    float: left;
+    width: 140px;
+    background-color: #DA2225;
+    top: 0px;
+    height:30px;
+    margin-left:100px;
+    }
+.hometeamsite{
+    position:relative;
+    float: left;
+    width: 140px;
+    height: 20px;
+    background-color: #553434;
+    top: 0px;
+    margin-left:100px;
+}
+.awayteamsite{
+    position: relative;
+    float: left;
+    width: 140px;
+    height: 20px;
+    background-color: #766E6E;
+    top: 0px;
+    clear: left;
+    margin-left: 77px;    
+}
+.awayteamsitechild{
+    height: 100px;
+    width: 400px;
+    background-color: rgba(11,225,112,1.00);
+    position: absolute;
+    float: left;
+    top: -10px;
+    left: -10px;
+    display: none;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    z-index:2000;
+    }
+.hometeamsitechild{
+    height: 100px;
+    width: 400px;
+    background-color: rgba(11,225,112,1.00);
+    position: absolute;
+    float: right;
+    top: -10px;
+    right: -10px;
+    display: none;
+    z-index: 2000;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    }    
+.awayteam{
+    display: inline;
+    position: relative;
+    float: left;
+    width: 140px;
+    height:30px;
+    background-color: #DA2225;
+    top: 0px;
+    margin-left:77px;
+    
+    }
+.helmetpng{
+     width:120px;
+     height:75px;
+     border:10px solid #555;
+     float:left;
+     display:inline;
+}
+.helmetradioinput{
+    display:none;
+    position: relative;
+    }
+.gameinfowrap{
+    border-top: thick solid #9C0002;
+    background-color:rgba(255,255,255,1.00);
+    /*position:relative;*/
+    text-align:center;
+    padding-top:10px;
+    }
+.gameinfoP{
+    color: rgba(0,193,14,1.00);
+    font-size: 18px;
+    margin-top:0px;
+    }  
+
+
+.pickgamefooter{
+    width: 380px;
+    height: 25px;
+    background-color: #990002;
+    position: relative;
+    float: left;
+    top:0px;
+    margin-left:77px;
+    }
+.byeblock{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    float:left;
+    clear:left;
+    top:0px;
+    left:0px;
+    background-color:rgba(36,36,36,0.75);
+    z-index:10000;
+    }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <navbar>NavBar/loggedInNav.php</navbar>
+  <mainMenu>dummy.php</mainMenu>
+  <contents>dummy.php</contents>
+  <widgets>Widgets/logOutLink.php</widgets>
+</root>
